@@ -1,0 +1,23 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-unused-vars": "warn",       // 사용하지 않는 변수가 있으면 경고
+      "no-console": "off",            // 콘솔 사용을 허용
+      "eqeqeq": "error",              // '==' 대신 '===' 사용 강제
+      "curly": "error",               // 모든 블록에 중괄호 강제
+      "no-undef": "error",            // 정의되지 않은 변수를 사용하면 에러
+      "semi": ["error", "always"],    // 모든 문장 끝에 세미콜론 강제
+      "quotes": ["error", "double"],  // 문자열은 항상 더블 쿼트 사용
+      "indent": ["error", 2],         // 들여쓰기는 2칸으로 통일
+      "no-trailing-spaces": "error"   // 줄 끝에 공백을 허용하지 않음
+    }
+  }
+  
